@@ -14,6 +14,9 @@
         Are you willing to go into the V-tuber hole?
       </p>
       <form id="survey-form" action="#">
+      <label for="yes"><input id="yes" type="radio" name="willingness" class="inline" value="yes" /> Yes</label>
+        <label for="no"><input id="no" type="radio" name="willingness" class="inline" value="no" /> No</label>
+ 
         <label for="name" id="name-label"
           ><p>Name:</p>
           <input type="text" id="name" placeholder="e.g. hyumannen" required />
@@ -90,7 +93,7 @@
             type="checkbox"
             name="watching"
             value="Bilibili"
-          />Club Bilibili
+          />Bilibili
         </label>
         <p>Any other information you would like to share?</p>
         <textarea id="additional-information" rows="4" cols="50">
